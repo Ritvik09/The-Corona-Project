@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="icon" href="/img/icon.png">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body>
+        {{>header}}
+        
+        <div class="main">
+            <h1>Please fill data in the form below:</h1>
+            <br>
+            <form method="POST" action="/post-feedback">
+                <label>Name: <input type="text" name="name" required></label>
+                <br><br>
+                <label>Email: <input type="text" name="email" required></label>
+                <br><br>
+                <label>Number: <input type="text" name="number"></label>
+                <br><br>
+                <input class="submit" type="submit" value="Submit">
+            </form>
+            <br>
+        </div>
+
+        {{>footer}}
+        <script src="/js/app.js"></script>
+    </body>
+</html>

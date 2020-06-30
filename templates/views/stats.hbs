@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COVID-19 Statistics</title>
+        <link rel="icon" href="/img/icon.png">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body>
+        {{>header}}
+
+        <div class="main">
+            <div class="wrapper">
+                <div class="statistic">
+
+                    <div class="total_case_box">
+                        <h2>Total Cases</h2>
+                        <p id="total_cases"></p>
+                    </div>
+                    <div class="box_wrapper">
+                        <div class="box">
+                            <h2>Total Deaths</h2>
+                            <p id="total_death"> </p>
+                        </div>
+
+                        <div class="box">
+                            <h2>Total Recoveries</h2>
+                            <p id="total_recovered"> </p>
+                        </div>
+
+                        <div class="box">
+                            <h2>New Cases</h2>
+                            <p id="new_case"> </p>
+                        </div>
+
+                        <div class="box">
+                            <h2>New Deaths</h2>
+                            <p id="new_death"> </p>
+                        </div>
+                    </div>   
+        
+                    <table id="countries_stat">
+                        <tr>
+                            <th>Country</th>
+                            <th>Cases</th>
+                            <th>Deaths</th>
+                            <th>Serious Critical</th>
+                            <th>Total Recovered</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        {{>footer}}
+        <script src="/js/app.js"></script>
+    </body>
+</html>
