@@ -4,12 +4,10 @@ const hbs = require('hbs')
 const mongodb = require('mongodb')
 const bodyParser = require('body-parser')
 
-// var dbConn = mongodb.MongoClient.connect('mongodb://localhost:27017');
 const MongoClient = mongodb.MongoClient;
 const databaseName = 'responses'
 
 const app = express()
-
 const port = process.env.PORT || 3000
 
 //Define paths for Express config
