@@ -127,7 +127,7 @@ a:hover {
 /*----------------------footer---------------------*/
 footer {
     text-align: center;
-    font-size: 20px;
+    font-size: 1.75vw;
     font-style: italic;
     color: #A9A9A9;
     margin: 30px;
@@ -152,20 +152,22 @@ footer {
 
 .blog-right {
     float: right;
+    margin-left: 4vw;
 }
 
 .me {
-    margin: 4vh 0 2.5vh 5vw;
+    margin: 4vh 0 2.5vh 0;
     border-radius: 50%;
-    width: 10vw;
+    width: 13vw;
     float: right;
+    vertical-align: middle;
     border: 0.5vh solid white;
 }
 
 .main .name {
-    text-align: right;
     padding: 0 1vw 3vh 0;
-    font-size: 1.25vw; 
+    text-align: center;
+    font-size: 1.5vw;
     color: 	#A9A9A9;
 }
 
@@ -186,9 +188,9 @@ footer {
     }
     nav ul {
         margin-top: 70px;
-        position: absolute;
+        position: fixed;
         right: 0px;
-        height: 56vh;
+        height: 65vw;
         top: 8vh;
         background-color: #222930;
         display: flex;
@@ -200,6 +202,7 @@ footer {
     }
     nav ul li {
         opacity: 0;
+        padding: 1vh 0;
     }
     .burger {
         display: block;

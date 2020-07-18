@@ -116,8 +116,8 @@ $(document).ready(function() {
 //-----------------news------------------
 
 //--------news-preloader--------
-$(".loader").delay(4000).fadeOut(500);
+$(".loader").delay(4500).fadeOut(500);
 $(".text-center").fadeOut(0);
 $(".text-center").delay(4000).fadeIn(500);
 $("footer").fadeOut(0);
-$("footer").delay(4000).fadeIn(500);
+$("footer").delay(4500).fadeIn(500);
